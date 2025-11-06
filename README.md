@@ -1,73 +1,43 @@
-# Welcome to your Lovable project
+# Project SATA
 
-## Project info
+A personalized **AI-powered web app** designed to help **students and developers** track their learning and coding journey — all in one place.
+Our mission is to make your study routine smarter, more organized, and deeply personalized through intelligent analytics and AI mentoring.
 
-**URL**: https://lovable.dev/projects/d7e0c2ac-e722-427e-8ee5-7b57923fbf17
+## 🚀 Features
 
-## How can I edit this code?
+### 📈 Track Development Progress
 
-There are several ways of editing your application.
+Monitor your growth across multiple learning paths including:
 
-**Use Lovable**
+-   **Web Development**
+-   **Data Structures & Algorithms (DSA)**
+-   **Computer Science Fundamentals**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d7e0c2ac-e722-427e-8ee5-7b57923fbf17) and start prompting.
+Get interactive **dashboards**, detailed **performance analytics**, and visual insights into your progress over time.
 
-Changes made via Lovable will be committed automatically to this repo.
+### 🤖 AI Study Assistant
 
-**Use your preferred IDE**
+Meet your **personal AI mentor** — an assistant that:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+-   Analyzes your coding performance and study behavior.
+-   Creates **customized daily or weekly study plans**.
+-   Dynamically adjusts your learning schedule based on progress.
+-   Recommends **targeted topics and challenges** to improve weak areas.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 💻 Built-in Coding Environment
 
-Follow these steps:
+Code, compile, and test projects **without leaving the platform**:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+-   Integrated coding workspace (with support for popular IDEs like **WebStorm**, **VS Code**, etc.).
+-   Real-time code execution, debugging, and version control.
+-   Collaborative coding sessions (coming soon).
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🧠 Tech Stack (Proposed)
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/d7e0c2ac-e722-427e-8ee5-7b57923fbf17) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+| Layer                | Technologies                                                                                      |
+| -------------------- | ------------------------------------------------------------------------------------------------- |
+| **Frontend**         | Next.js / React, Tailwind CSS, Vite (optional)                                                    |
+| **Backend**          | Node.js, Express.js, MongoDB, JWT Authentication                                                  |
+| **AI Integration**   | OpenAI API / Gemini / Custom ML Models                                                            |
+| **Deployment**       | Vercel / Render / AWS / Railway                                                                   |
+| **Additional Tools** | Socket.io (real-time features), Chart.js / Recharts (analytics), Monaco Editor (for built-in IDE) |
