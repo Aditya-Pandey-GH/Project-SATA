@@ -1,43 +1,36 @@
-# Project SATA
+# Welcome to your Lovable project
 
-A personalized **AI-powered web app** designed to help **students and developers** track their learning and coding journey — all in one place.
-Our mission is to make your study routine smarter, more organized, and deeply personalized through intelligent analytics and AI mentoring.
+## Project info
 
-## 🚀 Features
+**URL**: https://lovable.dev/projects/d7e0c2ac-e722-427e-8ee5-7b57923fbf17
 
-### 📈 Track Development Progress
+## How can I edit this code?
 
-Monitor your growth across multiple learning paths including:
+There are several ways of editing your application.
 
--   **Web Development**
--   **Data Structures & Algorithms (DSA)**
--   **Computer Science Fundamentals**
+**Use Lovable**
 
-Get interactive **dashboards**, detailed **performance analytics**, and visual insights into your progress over time.
+Simply visit the [Lovable Project](https://lovable.dev/projects/d7e0c2ac-e722-427e-8ee5-7b57923fbf17) and start prompting.
 
-### 🤖 AI Study Assistant
+Changes made via Lovable will be committed automatically to this repo.
 
-Meet your **personal AI mentor** — an assistant that:
+**Use your preferred IDE**
 
--   Analyzes your coding performance and study behavior.
--   Creates **customized daily or weekly study plans**.
--   Dynamically adjusts your learning schedule based on progress.
--   Recommends **targeted topics and challenges** to improve weak areas.
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-### 💻 Built-in Coding Environment
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Code, compile, and test projects **without leaving the platform**:
+Follow these steps:
 
--   Integrated coding workspace (with support for popular IDEs like **WebStorm**, **VS Code**, etc.).
--   Real-time code execution, debugging, and version control.
--   Collaborative coding sessions (coming soon).
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-## 🧠 Tech Stack (Proposed)
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-| Layer                | Technologies                                                                                      |
-| -------------------- | ------------------------------------------------------------------------------------------------- |
-| **Frontend**         | Next.js / React, Tailwind CSS, Vite (optional)                                                    |
-| **Backend**          | Node.js, Express.js, MongoDB, JWT Authentication                                                  |
-| **AI Integration**   | OpenAI API / Gemini / Custom ML Models                                                            |
-| **Deployment**       | Vercel / Render / AWS / Railway                                                                   |
-| **Additional Tools** | Socket.io (real-time features), Chart.js / Recharts (analytics), Monaco Editor (for built-in IDE) |
+# Step 3: Install the necessary dependencies.
+npm i
+
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
