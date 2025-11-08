@@ -57,7 +57,7 @@ const Dashboard = () => {
       </div>
 
       {/* Main Content Grid */}
-      <div className="grid gap-6 lg:grid-cols-3">
+      <div className="grid gap-6 lg:grid-cols-1">
         <div className="lg:col-span-2">
           <WeeklyProgress />
         </div>
@@ -71,7 +71,7 @@ const Dashboard = () => {
         <div className="lg:col-span-2">
           <WeeklyTimetable />
         </div>
-        <div>
+        <div className="lg:col-span-3">
           <AIMentorTip />
         </div>
       </div>
