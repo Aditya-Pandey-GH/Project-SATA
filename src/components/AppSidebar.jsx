@@ -1,5 +1,6 @@
 import { Home, TrendingUp, Calendar, Code2, Target, Settings } from "lucide-react";
 import { NavLink } from "@/components/NavLink";
+
 import {
 	Sidebar,
 	SidebarContent,
@@ -31,12 +32,12 @@ export function AppSidebar() {
 				<SidebarGroup>
 					<SidebarGroupLabel className="mt-4 mb-2">
 						<div className="flex items-center gap-2">
-							<div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">
-								<span className="text-sm font-bold text-primary-foreground">SF</span>
-							</div>
+							{/* <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">
+								<span className="text-sm font-bold text-primary-foreground">SA</span>
+							</div> */}
 							{!collapsed && (
 								<div className="flex flex-col">
-									<span className="text-sm font-semibold text-foreground">StudyFlow AI</span>
+									<span className="text-sm font-semibold text-foreground">SATA</span>
 									<span className="text-xs text-muted-foreground">Your Learning Companion</span>
 								</div>
 							)}

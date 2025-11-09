@@ -103,9 +103,9 @@ const MonacoEditor = () => {
 					Run
 				</button>
 			</div>
-			<div className="flex justify-center pb-4">
+			<div className={`flex justify-center ${!fullScreen && "pb-4"}`}>
 				<Editor
-					width={fullScreen ? "98vw" : "80vw"}
+					width={fullScreen ? "100vw" : "77.7vw"}
 					height={fullScreen ? "calc(100vh - 210px)" : "50vh"}
 					defaultLanguage="javascript"
 					defaultValue={`// Your code goes here!\n`}

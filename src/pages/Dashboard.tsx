@@ -10,7 +10,7 @@ const Dashboard = () => {
     <div className="space-y-8">
       {/* Welcome Section */}
       <div>
-        <h1 className="text-3xl font-bold">Welcome back, Alex! 👋</h1>
+        <h1 className="text-3xl font-bold">Welcome back! 👋</h1>
         <p className="mt-2 text-muted-foreground">Here's your learning progress and today's personalized study plan</p>
       </div>
 
