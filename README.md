@@ -1,5 +1,5 @@
 # 🚀 SATA – Self-Assessed Training Architecture
-## Your AI-powered Learning Companion for DSA and Web Development
+## Your AI-powered Learning Companion for DSA and Web Development (made by Team Velocity)
 
 ### 🧠 Problem Statement
 
@@ -90,7 +90,27 @@ SATA remains free for learners while generating revenue from educational institu
 
 🧠 Developers who want structured, AI-guided upskilling.
 
-🌍 Market Opportunity
+### 🌍 Market Opportunity
 
 The global AI-in-Education market is projected to exceed ₹26,000 Crores, fueled by the rise of personalized learning tools and data-driven education.
 SATA positions itself at the intersection of AI, learning analytics, and developer education — bridging a critical gap between learning and measurable progress.
+
+### 🧰 Installation & Setup
+
+#### Clone the repository
+git clone https://github.com/Aditya-Pandey-GH/Project-SATA.git
+
+#### Navigate into the project
+cd SATA
+
+#### Install dependencies
+npm install
+
+#### Run the development server
+npm start
+
+### 🧑‍💻 Contributors
+- Aditya Pandey (Full Stack Development & Designer)
+- Sahil Kumar (Backend Developer)
+- Tushar Kumar (Designer)
+- Ayush Jha (Frontend Developer)
