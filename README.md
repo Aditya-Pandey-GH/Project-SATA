@@ -1,7 +1,7 @@
 # 🚀 SATA – Self-Assessed Training Architecture
 ## Your AI-powered Learning Companion for DSA and Web Development (made by Team Velocity)
 
-### 🧠 Problem Statement
+## 🧠 Problem Statement
 
 Today, learners and developers face a fragmented ecosystem. DSA practice happens on LeetCode, development projects live on GitHub, and notes are scattered across Notion or local files. Tracking real progress and building consistency is hard — students lose motivation, fail to follow structured learning paths, and lack personalized AI-driven guidance.
 
@@ -9,7 +9,7 @@ Even educators and bootcamps find it difficult to monitor student growth efficie
 
 In short, learning development is slowed down not by a lack of curiosity, but by the lack of structure and intelligent tracking.
 
-### 💡 Introducing SATA
+## 💡 Introducing SATA
 
 SATA (Self-Assessed Training Architecture) is an AI-powered EdTech platform that helps learners track, practice, and improve their DSA and Web Development journey — all from a single dashboard.
 
@@ -25,7 +25,7 @@ At its core, SATA provides:
 
 🧩 Unified Dashboard – Manage DSA, Web Dev, and AI/ML learning from one space.
 
-### ⚙ Architecture
+## ⚙ Architecture
 
 SATA brings together modern web and AI technologies to build an intelligent, scalable learning platform.
 
@@ -49,7 +49,7 @@ AI-based scheduling flow using Gemini for dynamic recommendations
 
 Secure user data management with MongoDB Atlas
 
-### 🌟 Key Features
+## 🌟 Key Features
 Feature	Description
 🤖 AI Scheduler	Personalized DSA + WebDev study plan tailored to progress
 📈 Progress Tracking	Streak graphs with GitHub & LeetCode integration
@@ -82,7 +82,7 @@ Why it works:
 
 SATA remains free for learners while generating revenue from educational institutions and premium personalization features.
 
-### 🎯 Target Audience
+## 🎯 Target Audience
 
 👩‍🎓 Students & Self-learners building consistent learning habits.
 
@@ -90,12 +90,12 @@ SATA remains free for learners while generating revenue from educational institu
 
 🧠 Developers who want structured, AI-guided upskilling.
 
-### 🌍 Market Opportunity
+## 🌍 Market Opportunity
 
 The global AI-in-Education market is projected to exceed ₹26,000 Crores, fueled by the rise of personalized learning tools and data-driven education.
 SATA positions itself at the intersection of AI, learning analytics, and developer education — bridging a critical gap between learning and measurable progress.
 
-### 🧰 Installation & Setup
+## 🧰 Installation & Setup
 
 #### Clone the repository
 git clone https://github.com/Aditya-Pandey-GH/Project-SATA.git
@@ -109,7 +109,7 @@ npm install
 #### Run the development server
 npm start
 
-### 🧑‍💻 Contributors
+## 🧑‍💻 Contributors
 - Aditya Pandey (Full Stack Development & Designer)
 - Sahil Kumar (Backend Developer)
 - Tushar Kumar (Designer)
