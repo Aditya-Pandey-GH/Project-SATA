@@ -153,7 +153,7 @@ Rules:
 			<div className="w-full h-full bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200 p-8 flex flex-col overflow-hidden">
 				{/* Header */}
 				<header className="text-center mb-8">
-					<h1 className="text-4xl font-bold text-blue-600 dark:text-blue-400 mb-2">StudyFlow AI</h1>
+					<h1 className="text-4xl font-bold text-blue-600 dark:text-blue-400 mb-2">SATA</h1>
 					<p className="text-gray-500 text-lg">Your DSA + Dev Learning Companion</p>
 				</header>
 

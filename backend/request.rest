@@ -1,0 +1,33 @@
+### Base URL
+@baseUrl = http://127.0.0.1:8000
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZGkiLCJyb2xlIjoidXNlciIsImlhdCI6MTc2MTc2MzU2NSwiZXhwIjoxNzYxNzY3MTY1fQ.ffIGSidzzWalaHHmS5T4x42jEDwo6-KDP_YZCwZyanM
+
+### 1️⃣ Login as Admin
+POST {{baseUrl}}/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "admin123"
+}
+
+### 2️⃣ Login as Regular User
+POST {{baseUrl}}/login
+Content-Type: application/json
+
+{
+  "username": "adi",
+  "password": "adi123"
+}
+
+### 3️⃣ Access Admin Dashboard (requires token)
+GET {{baseUrl}}/admin/dashboard
+Authorization: Bearer {{token}}
+
+### 4️⃣ Get All Users (admin only)
+GET {{baseUrl}}/admin/users
+Authorization: Bearer {{token}}
+
+### 5️⃣ Get User Profile (any authenticated user)
+GET {{baseUrl}}/user/profile
+Authorization: Bearer {{token}}
