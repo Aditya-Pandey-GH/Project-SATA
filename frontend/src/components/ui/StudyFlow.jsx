@@ -203,7 +203,7 @@ Rules:
 				{error && <div className="mt-4 p-4 bg-red-900/20 border-l-4 border-red-500 rounded-xl text-red-200">{error}</div>}
 
 				{/* Theme Switch */}
-				<div className="flex-shrink-0 text-center mt-6 pt-5 border-t border-slate-300 dark:border-slate-700">
+				{/*<div className="flex-shrink-0 text-center mt-6 pt-5 border-t border-slate-300 dark:border-slate-700">
 					<label className="inline-flex items-center cursor-pointer">
 						<input
 							type="checkbox"
@@ -214,7 +214,7 @@ Rules:
 						<div className="relative w-12 h-7 bg-slate-300 rounded-full peer-checked:bg-green-500 after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:w-6 after:h-6 after:bg-white after:rounded-full after:transition-all peer-checked:after:translate-x-full" />
 						<span className="ml-3 text-sm font-medium">Dark Mode</span>
 					</label>
-				</div>
+				</div>*/}
 			</div>
 
 			{/* Chat Icon */}
